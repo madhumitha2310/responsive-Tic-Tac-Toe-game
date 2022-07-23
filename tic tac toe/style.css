@@ -1,0 +1,130 @@
+/* ****************** Body, head etc ****************** */
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to left, #cc33ff, #cc66ff, #f7797d);
+}
+
+header {
+	background-color:#9900cc;
+	color: #eee;
+	text-align: center;
+	height: 60px;
+	padding-top: 5px;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+
+p {
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Sans;
+	text-align: center;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+a {
+	color: #00AEEA;
+	text-decoration: none;
+}
+a:hover {
+	color: #00AEEA;
+}
+a:visited {
+	color: #00AEEA;
+}
+
+/* ****************** Table style ****************** */
+#tab-tic-tac-toe {
+    margin-left: auto;
+	margin-right: auto;
+	left: 0;
+    right: 0;
+	padding: 5px;
+	font-size: 4em;
+	font-family: Sans;
+	color: #444;
+	background: #F8F8F8;
+    width: 310px;
+	height: 300px;
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid #CECECE;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #CCC;
+    height: 400px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    position: absolute;
+         border-radius: 8px;
+    -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+            box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+    font-family: 'Poppins',sans-serif;
+}
+
+/*Column style*/
+#tab-tic-tac-toe td {
+	border-collapse:collapse;
+	border-left: 5px solid #CCC;
+	border-bottom: 5px solid #CCC;
+}
+
+#tab-tic-tac-toe td:first-child {
+	border-left: none;
+}
+
+#tab-tic-tac-toe tr:last-child td {
+	border-bottom: none;
+}
+
+/*Cells*/
+#tab-tic-tac-toe td {
+	cursor: pointer;
+	height: 95px;
+	width: 95px;
+}
+
+#tab-tic-tac-toe td:hover {
+	background: #ECECEC;
+}
+
+/* ****************** Restart Button ****************** */
+#restart-btn {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+    right: 0;
+	display: block;
+	padding: 10px;
+	width: 200px;
+	background:#9900cc;
+	font-size: 1.5em;
+	color: #FFF;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+
+}
+
+#restart-btn:hover {
+	background:#00ffcc;
+}
+
+#restart-btn:active {
+	background:#e6ccff;
+}
+
+#restart-btn:disabled {
+	color: #444;
+	background:#e6ccff;
+}
